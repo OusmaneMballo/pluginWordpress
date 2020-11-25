@@ -12,5 +12,10 @@ Version: 1.7.2
 Author URI: https://www.github.com/OusmaneMballo/
 */
 
+add_action('wp_footer', 'sayHello');
+
+function sayHello(){
+    echo "Hello my plugin wordpress!...";
+}
 
 ?>
